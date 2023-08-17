@@ -16,6 +16,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/ib-aihub-docs/build/',
+  // baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -63,6 +64,28 @@ const config = {
         },
         items: [
         ],
+      },
+      algolia: {
+        appId: 'M92T33V7RH',
+        apiKey: 'f0b3951f77308711eb107506c9867fbd',
+        indexName: 'aihub',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        // replaceSearchResultPathname: {
+        //   from: '/docs/', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
+  
+        // // Optional: Algolia search parameters
+        // searchParameters: {},
+  
+        // // Optional: path for search page that enabled by default (`false` to disable it)
+        // searchPagePath: 'search',
+  
+        //... other Algolia params
       },
       // footer: {
       //   style: 'dark',

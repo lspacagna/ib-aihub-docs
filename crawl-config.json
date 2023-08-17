@@ -1,10 +1,10 @@
 {
     "index_name": "aihub",
     "start_urls": [
-      "https://e893-2a00-23c4-4ef5-3c01-ec45-1726-1585-d20a.ngrok-free.app"
+      "https://lspacagna.github.io/ib-aihub-docs/build/"
     ],
     "sitemap_urls": [
-      "https://e893-2a00-23c4-4ef5-3c01-ec45-1726-1585-d20a.ngrok-free.app/sitemap.xml"
+      "https://lspacagna.github.io/ib-aihub-docs/build//sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [
